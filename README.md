@@ -73,7 +73,70 @@ In this example, the variable numbers is a list containing the numbers 1, 2, 3, 
 2. Subtraction -> -
 3. Division -> /
 4. Multiplication -> *
-5. Mod (remainder of division) -> %
+5. Mod (remainder of division) -> % 
 
+```python
+#Addition
+print(3 + 5)
 
+#Subtraction
+print(5 - 3)
 
+#Division
+print(5 / 3)
+
+#Multiplication
+print(5 * 3)
+
+#mod (remainder of the 5 by 3 division)
+print(5 % 3)
+```
+```python
+8
+2
+1.6666666666666667
+15
+2
+```
+- #### Basic String Operations
+
+1. Concatenate -> +
+2. Check if the text is contained within the other -> in
+
+```python
+#Concatenate
+print('my salary is' + '2000')
+
+#Check if one text is inside another
+print('@' in 'horranaiasmim@gmail.com')
+```
+```
+my salary is 2000
+True
+```
+- #### Variable
+
+variable = value
+
+```python
+turnover = 1500
+cost = 800
+profit = revenue - cost
+print(billing)
+print(profit)
+```
+```
+1500
+700
+```
+
+- #### Get User information
+
+variable = input('Text for User')
+
+```python
+##to register a customer
+cpf = input('Enter your cpf (only numbers, no dots and dashes)')
+print('O cpf do cliente é ' + cpf)
+print('The customer's CPF is ' + CPF)
+```
